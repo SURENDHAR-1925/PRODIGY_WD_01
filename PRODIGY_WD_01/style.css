@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+}
+
+header{
+    position: fixed;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(67, 65, 65);
+    height: 50px;
+    width: 285%;
+}
+
+a{
+    margin-top: 10px;
+    margin-left: 30px;
+    transition: .5s;
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 10px;
+}
+
+a:hover,
+a.active{
+    background-color:transparent;
+    color: black;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.home{
+    justify-content: space-between;
+    display: flex;
+   padding:200px;
+    height: 100vh;
+    background-color: rgb(40, 72, 232);
+}
+
+.home-content{
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+.home-content p{
+    padding: 20px 90px ;
+    font-size: 20px;
+}
+
+.internship{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0px 40px;
+    height: 100vh;
+    display: flex;
+    letter-spacing: 1px;
+}
+
+.internship-content{
+    color: rgb(77, 73, 73);
+    text-align: center;
+    padding: 200px 30px;
+}
+
+.internship-content h2{
+  padding: 0px 100px;
+  text-align: initial;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.pic img{
+
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 150px;
+    filter: drop-shadow(4px 5px 9px black);
+    height: 450px;
+    /* box-shadow: 0px 5px 15px   black; */
+}
+
+
+.about{
+    background-color: white;
+    text-align: center;
+    letter-spacing: 0px;
+    height: 100vh;
+    padding: 200px;
+    justify-content: center;
+   
+    
+}
+
+.about-content{
+    width: 650px;
+    height: 320px;
+    box-sizing: content-box;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align:initial;
+   filter:drop-shadow(4px 5px 40px black);
+  
+}
+
+h1{
+    font-family:monospace;
+    font-weight: 50px;
+}
